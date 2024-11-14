@@ -1,0 +1,11 @@
+:root {
+  --primary-pink: #ffe8e8;
+  --primary-black: #232323;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: var(--primary-black);
+}
