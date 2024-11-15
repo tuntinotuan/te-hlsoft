@@ -2,3 +2,13 @@
   max-width: 1170px;
   margin: 0 auto;
 }
+.btn {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 55px;
+}
+.btn--black {
+  background-color: var(--primary-black);
+  color: white;
+}
