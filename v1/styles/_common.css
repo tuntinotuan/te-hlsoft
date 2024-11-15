@@ -21,11 +21,15 @@
   background-color: var(--primary-black);
   color: white;
 }
-.btn--white {
+.btn--border {
   color: var(--primary-black);
   border: 1px solid var(--primary-black);
 }
-.btn--white:hover {
+.btn--border:hover {
   background-color: var(--primary-black);
   color: white;
+}
+.btn--white {
+  background-color: white;
+  color: var(--primary-black);
 }

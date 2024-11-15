@@ -38,3 +38,6 @@ a {
   list-style-type: none;
   color: inherit;
 }
+input {
+  all: unset;
+}
