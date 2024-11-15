@@ -27,3 +27,43 @@
   height: 2px;
   background-color: var(--primary-black);
 }
+.banner__lists {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.banner__items {
+  position: relative;
+}
+.banner__items--overlay {
+  inset: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(239, 100, 84, 0.1);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.banner__items--overlay h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+}
+.banner__items--overlay:hover h2 {
+  position: relative;
+}
+.banner__items--overlay:hover {
+  background-color: rgba(239, 100, 84, 0);
+}
+.banner__items--overlay h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -40%;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
