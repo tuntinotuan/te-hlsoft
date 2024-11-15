@@ -1,6 +1,9 @@
 :root {
   --primary-pink: #ffe8e8;
   --primary-black: #232323;
+  --tags-red: #ef6454;
+  --tags-blue: #06bfe2;
+  --tags-yellow: #ffbb49;
 }
 
 body {
