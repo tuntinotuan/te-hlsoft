@@ -1,9 +1,18 @@
 :root {
   --primary-pink: #ffe8e8;
   --primary-black: #232323;
+
   --tags-red: #ef6454;
   --tags-blue: #06bfe2;
   --tags-yellow: #ffbb49;
+
+  --text-gray: #a4a4a4;
+
+  --color-gray: #e8e8e8;
+  --color-black: #494949;
+  --color-blue: #4b6cc0;
+  --color-green: #13c89c;
+  --color-yellow: #fff100;
 }
 
 body {
