@@ -154,6 +154,9 @@
     padding-right: 10px;
   }
   /* header */
+  .header__top {
+    padding: 10px;
+  }
   .header__mobile-controls .header__items {
     display: none;
   }
@@ -161,6 +164,11 @@
     display: flex;
   }
   /* body  */
+  .banner__contain {
+    position: unset;
+    transform: none;
+    padding: 10px 0;
+  }
   .banner__lists {
     gap: 10px;
     margin-top: 10px;
@@ -174,6 +182,10 @@
   }
   .product__lists {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .gallery__slide {
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .gallery__item:nth-last-child(3) {
     display: none;

@@ -141,6 +141,10 @@
   z-index: 9999;
   padding: 25px;
 }
+.header__close-icon {
+  width: 40px;
+  cursor: pointer;
+}
 .header__toggle-menu--open {
   display: flex;
   flex-direction: column;
